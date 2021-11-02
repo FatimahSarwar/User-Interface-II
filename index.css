@@ -62,10 +62,10 @@ a{
 justify-content: center;
   }
 .IntroImage img{
-width:35%;
+width:55%;
 border-radius:500px;
 margin-top:45px;
-margin-left:50px;
+margin-left:100px;
 }
 .IntroText h2{
     font-size:48px;
@@ -86,6 +86,7 @@ margin-left:50px;
   flex-flow:wrap;
   justify-content: space-evenly;
   font-family:'Chelsea Market',cursive;
+  margin-top:5%;
 }
 #thumbnails img{
     height:200px;
@@ -122,4 +123,60 @@ footer button{
     font-size:25px;
     text-align: center;
     font-family:'Chelsea Market',cursive;
+}
+
+
+@media(max-width:500px){
+   h1{
+       font-size:40px;
+       text-align: center;
+   }
+   nav .Links{
+       display:flex;
+       flex-direction: column;
+      
+       
+   }
+   nav{
+       display: flex;
+       justify-content: center;
+   }
+   .IntroImage img{
+       width:150%;
+   }
+  .IntroText h2 {
+      display:flex;
+   justify-content: center;
+   font-size:30px;
+   margin-top:-50px;
+   padding-right:800px;
+   padding-top:300px;
+  }
+.mainButton{
+   margin-left:-50px;
+   
+}
+.IntroText p{
+    margin-left:-85px;
+}
+#thumbnails img{
+    width:90px;
+    height:90px;
+}
+#ttwo img{
+    width:90px;
+    height:90px;
+}
+
+#thumbnails p{
+    width:50%;
+}
+#ttwo p{
+    width: 50%;
+}
+
+#thumbnail{
+    display: flex;
+    justify-content: left;
+}
 }
